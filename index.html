@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Petshop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles\styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="barra">
+            <span>Grandes ofertas en comederos</span>
+            <form action="" method="POST">
+                <select name="pais" class="pais" type="none">
+                    <option value="0" disabled>Español</option>
+                    <option value="1">Español</option>
+                    <option value="2">ARG$</option>
+                </select>
+            </form>
+        </div>
+
+        <nav>
+            <img src="img\logo.png" alt="logo">
+            <img src="./img/menu-icon 1.png" class="menu" alt="menu">
+            <ul type="none" class="nav">
+                <li>Categorias</li>
+                <li>Pets</li>
+                <li>Nosotros</li>
+                <li>Contactanos</li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="banner">
+            <div class="position">
+                <h2 id="bienvenida">¡Es un placer tenerte aqui!</h2>
+                <p>¡Comederos en descuento!</p>
+                <div class="btn-comederos">COMEDEROS</div>
+            </div>
+        </section>
+
+        <section id="productos">
+            <img src="img\pawprint1.jpg" alt="imagen patita">
+            <h1>Productos Destacados</h1>
+            <a href="#">Comederos -</a>
+            <a href="#">Accesorios -</a>
+            <a href="#">Comida</a>
+
+            <section id="articulos">
+                <article>
+                    <img src="img\churrasquito.png" alt="producto1">
+                    <p>Juguete Churrasquito</p>
+                    <p>$150</p>
+                </article>
+
+                <article>
+                    <img src="img\comedero.png" alt="producto">
+                    <p>Comedero para perros</p>
+                    <p>$250</p>
+                </article>
+
+                <article>
+                    <img src="img/Huesito.png" alt="huesito">
+                    <p>Juguete huesito</p>
+                    <p>$650</p>
+                </article>
+            </section>
+
+        </section>
+
+        <section id="contacto">
+            <h3>Contactanos</h3>
+
+            <form action="" method="POST">
+                <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido">
+                <input type="email" name="email" placeholder="Ingrese su correo electronico">
+                <input type="tel" name="telefono" placeholder="Teléfono">
+            </form>
+
+            <div class="botones">
+                <a href="">Resetear</a>
+                <a href="">Enviar</a>
+            </div>
+
+        </section>
+
+        <section id="suscripcion">
+            <p class="suscripcion"><img src="../Pet shop/img/susc.png" alt="correo">Suscribete para mas novedades</p>
+            <div class="btn-suscripcion">
+                <input type="email" name="email" placeholder="Ingrese su correo electronico">
+                <a href="#">Suscribirme</a>
+            </div>
+
+        </section>
+
+        <section id="informacion">
+            <div class="info">
+                <ul type="none" class="iconos">
+                    <li><img src="img\ubicacion.png" alt="ubicacion"></li>
+                    <li><img src="img\telefono.png" alt="telefono"></li>
+                    <li><img src="img\mail.png" alt="mail"></li>
+                </ul>
+                <ul type="none" class="localidad">
+                    <li>
+                        <p>Localidad</p>
+                        <p class="detalle">Calle-Provincia</p>
+                    </li>
+                    <li>
+                        <p>Telefono</p>
+                        <p class="detalle">Numero de telefono</p>
+                    </li>
+                    <li>
+                        <p>Correo electronico</p>
+                        <p class="detalle">Direccion de correo</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="logo-footer">
+                <img src="../Pet shop/img/logoFooter.png" alt="logo">
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservador FrontEnd</p>
+    </footer>
+</body>
+
+</html>
